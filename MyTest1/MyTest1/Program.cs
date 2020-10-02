@@ -17,6 +17,11 @@ namespace MyTest1
             //Prueba Area Rectangulo
             double recArea;
             recArea = Geometry.GetRetangleArea(2.0, 4.0);
+
+            //Prueba If Else
+            int minValue;
+            minValue = Utils.GetMinValue(8, -12);
+            minValue = Utils.GetMinValue(4, 5);
         }
     }
 }
